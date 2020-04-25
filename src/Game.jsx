@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Square(props) {
   return (
     <button className={`square ${props.winningClass}`} onClick={props.onClick}>
@@ -191,4 +193,5 @@ function calculateWinner(squares) {
 }
 // ========================================
 
-ReactDOM.render(<Game />, document.getElementById('root'))
+
+export default Game;

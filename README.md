@@ -2,11 +2,9 @@
 
 A basic tic tac toe following the React tutorial, with challenges completed.
 
-
+To start:
 ```
-<script type="text/babel" src="index.jsx"></script>
+npm start
 ```
-Using Babel library the code will magically transpile to working condition. 
-
 
 [Demo](http://teebu.github.io/react-tictactoe)
