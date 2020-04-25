@@ -22,6 +22,7 @@ npm start
     "deploy": "gh-pages -d build"
   },
 ```
+- deploy  
 `npm run deploy`
 
 [Demo](http://teebu.github.io/react-tictactoe)
