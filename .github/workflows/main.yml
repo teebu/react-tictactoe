@@ -7,8 +7,11 @@ name: gh-pages
 on:
   push:
     branches: [ master ]
+
 env:
+  # If CI is true (default) it will treat warnings as errors
   CI: false
+
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
@@ -23,11 +26,6 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: '13'
-
-    - name: Who are you?
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
 
     - name: Install Dependencies
       run: npm install
