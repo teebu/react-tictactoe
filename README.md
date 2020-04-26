@@ -26,7 +26,7 @@ make sure this is package.json
 deploy  
 `npm run deploy`
 
-[Demo](http://teebu.github.io/react-tictactoe)
+[Demo](https://teebu.github.io/react-tictactoe)
 
 
 ### Deploy with Github Actions:

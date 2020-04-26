@@ -33,7 +33,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "http://teebu.github.io/react-tictactoe",
+  "homepage": "https://teebu.github.io/react-tictactoe",
   "devDependencies": {
     "gh-pages": "^2.2.0"
   }
